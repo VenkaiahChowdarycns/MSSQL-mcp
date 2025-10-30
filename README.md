@@ -104,21 +104,16 @@ http://127.0.0.1:8080
 http://127.0.0.1:8000/mcp
 ```
 
+4. Click Connect.
 
-4. or if you configured a custom host/port in your .env, use:
+5. You will now see all available tools (mssql_query_tool, mssql_insert_tool, mssql_update_tool, mssql_delete_tool, mssql_schema_tool, mssql_health_tool) listed automatically in the Messages block.
 
-http://<SERVER_HOST>:<SERVER_PORT>/mcp
+6. Select a tool and provide the required input arguments.
 
-
-5. Click Connect.
-
-6. You will now see all available tools (mssql_query_tool, mssql_insert_tool, mssql_update_tool, mssql_delete_tool, mssql_schema_tool, mssql_health_tool) listed automatically in the Messages block.
-
-7. Select a tool and provide the required input arguments.
-
-8. Run the request — you will get a live response from your connected Microsoft SQL Server.
+7. Run the request — you will get a live response from your connected Microsoft SQL Server.
 
 No need to craft raw JSON manually — Postman MCP automatically lists and formats available tools for you.
+
 
 
 
