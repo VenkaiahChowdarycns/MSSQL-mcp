@@ -46,6 +46,7 @@ It uses [`fastmcp`] as the MCP server framework and exposes tools for common dat
 pip install -r requirements.txt
 ```
 ##  **Project Structure**
+```bash
 mssql-mcp-server/
 ├── server.py
 ├── db.py
@@ -58,6 +59,7 @@ mssql-mcp-server/
 │   └── mssql_health.py
 ├── .env
 └── requirements.txt
+```
 
 # MSSQL Connection Configuration
 ```bash
@@ -117,5 +119,6 @@ http://<SERVER_HOST>:<SERVER_PORT>/mcp
 8. Run the request — you will get a live response from your connected Microsoft SQL Server.
 
 No need to craft raw JSON manually — Postman MCP automatically lists and formats available tools for you.
+
 
 
