@@ -28,7 +28,7 @@ It uses [`fastmcp`] as the MCP server framework and exposes tools for common dat
 - **Working**: Python 3.14
 
 
-## ⚙️ Installation
+## Installation
 
 1. **Clone the repository and navigate into it:**
 
@@ -95,24 +95,18 @@ http://127.0.0.1:8080
 ## Testing with Postman
 
 1. Open Postman (latest version with MCP support).
-
 2. Click New → MCP Request.
-
 3. Enter the MCP server URL:
- 
-```bash
+ ```bash
 http://127.0.0.1:8000/mcp
 ```
-
 4. Click Connect.
-
 5. You will now see all available tools (mssql_query_tool, mssql_insert_tool, mssql_update_tool, mssql_delete_tool, mssql_schema_tool, mssql_health_tool) listed automatically in the Messages block.
-
 6. Select a tool and provide the required input arguments.
-
 7. Run the request — you will get a live response from your connected Microsoft SQL Server.
 
 No need to craft raw JSON manually — Postman MCP automatically lists and formats available tools for you.
+
 
 
 
